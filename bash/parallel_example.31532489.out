@@ -1,0 +1,29 @@
+
+Job Name:   parallel_example
+Job ID:     31532489
+Account:    icds_internal_use
+From Loc:   /storage/work/lab396/jobpilot/bash
+On Host:    submit04
+
+# Nodes:    4
+Nodelist:   p-sc-[2145-2148]
+Tasks/Node: 2
+# Tasks:    8
+Mem/Task:   100  MB
+Total Mem:  800  MB
+
+Current Working Directory:  /storage/home/lab396/work/jobpilot/bash
+
+0: p-sc-2145  SLURM_NODEID=0
+1: p-sc-2145  SLURM_NODEID=0
+6: p-sc-2148  SLURM_NODEID=3
+7: p-sc-2148  SLURM_NODEID=3
+3: p-sc-2146  SLURM_NODEID=1
+2: p-sc-2146  SLURM_NODEID=1
+5: p-sc-2147  SLURM_NODEID=2
+4: p-sc-2147  SLURM_NODEID=2
+
+Job parallel_example ( 31532489 ) ended at Fri Jan 10 16:29:26 EST 2025
+
+Job Runtime  =  11  sec
+

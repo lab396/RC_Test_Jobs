@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#SBATCH --job-name=hello
+#SBATCH --account=open
+#SBATCH --partition=open
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem-per-cpu=1GB
+#SBATCH --time=00:01:00
+#SBATCH --output=%x.%j.out
+
+module use /storage/icds/RISE/sw8/modules
+module load r
+
+srun Rscript hello.R

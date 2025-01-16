@@ -1,0 +1,8 @@
+ 
+Job started at Wed Oct  9 08:55:02 EDT 2024 on p-bc-5001
+ 
+Hello world
+10
+ 
+Job ended at Wed Oct  9 08:55:02 EDT 2024
+ 
