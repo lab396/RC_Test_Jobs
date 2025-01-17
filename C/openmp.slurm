@@ -1,4 +1,6 @@
 #!/bin/bash
+#SBATCH -A open
+#SBATCH -p open
 #SBATCH --ntasks=5
 #SBATCH --mem-per-cpu=1024
 #SBATCH --time=00:01:00

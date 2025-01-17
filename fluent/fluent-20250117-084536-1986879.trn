@@ -1,0 +1,28 @@
+Auto-Transcript Start Time:  08:45:36, 17 Jan 2025 
+Current Directory: "/storage/work/lab396/lindsay_git/RC_Test_Jobs/fluent"
+/storage/icds/RISE/sw8/ansys-R23R2/ansys_inc/v232/fluent/fluent23.2.0/bin/fluent -r23.2.0 2ddp -pmpi-auto-selected -host -t10 -mpi=intel -cnf=p-bc-5063 -path/storage/icds/RISE/sw8/ansys-R23R2/ansys_inc/v232/fluent -ssh -cx p-bc-5063.2e.hpc.psu.edu:41171:38073
+Starting /storage/icds/RISE/sw8/ansys-R23R2/ansys_inc/v232/fluent/fluent23.2.0/lnamd64/2ddp_host/fluent.23.2.0 host -cx p-bc-5063.2e.hpc.psu.edu:41171:38073 "(list (rpsetvar (QUOTE parallel/function) "fluent 2ddp -flux -node -r23.2.0 -t10 -pmpi-auto-selected -mpi=intel -cnf=p-bc-5063 -ssh") (rpsetvar (QUOTE parallel/rhost) "") (rpsetvar (QUOTE parallel/ruser) "") (rpsetvar (QUOTE parallel/nprocs_string) "10") (rpsetvar (QUOTE parallel/auto-spawn?) #t) (rpsetvar (QUOTE parallel/trace-level) 0) (rpsetvar (QUOTE parallel/remote-shell) 1) (rpsetvar (QUOTE parallel/path) "/storage/icds/RISE/sw8/ansys-R23R2/ansys_inc/v232/fluent") (rpsetvar (QUOTE parallel/hostsfile) "p-bc-5063") (rpsetvar (QUOTE gpuapp/devices) ""))"
+
+              Welcome to ANSYS Fluent 2023 R2
+
+              Copyright 1987-2023 ANSYS, Inc. All Rights Reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: May 29 2023 07:35:13 EDT  Build Id: 10212  
+ 
+Connected License Server List:	1055@ansys.lic.engr.psu.edu
+
+     --------------------------------------------------------------
+     This is an academic version of ANSYS FLUENT. Usage of this product
+     license is limited to the terms and conditions specified in your ANSYS
+     license form, additional terms section.
+     --------------------------------------------------------------
+Host spawning Node 0 on machine "p-bc-5063" (unix).
+/storage/icds/RISE/sw8/ansys-R23R2/ansys_inc/v232/fluent/fluent23.2.0/bin/fluent -r23.2.0 2ddp -flux -node -t10 -pmpi-auto-selected -mpi=intel -cnf=p-bc-5063 -ssh -mport 10.6.8.73:10.6.8.73:40325:0
+Starting /storage/icds/RISE/sw8/ansys-R23R2/ansys_inc/v232/fluent/fluent23.2.0/multiport/mpi/lnamd64/intel2021/bin/mpirun -f /tmp/fluent-appfile.lab396.1987301 --rsh=ssh -genv FLUENT_ARCH lnamd64 -genv I_MPI_DEBUG 0 -genv I_MPI_ADJUST_GATHERV 3 -genv I_MPI_ADJUST_ALLREDUCE 2 -genv I_MPI_PLATFORM auto -genv PYTHONHOME /storage/icds/RISE/sw8/ansys-R23R2/ansys_inc/v232/fluent/fluent23.2.0/../../commonfiles/CPython/3_10/linx64/Release/python -genv FLUENT_PROD_DIR /storage/icds/RISE/sw8/ansys-R23R2/ansys_inc/v232/fluent/fluent23.2.0 -genv FLUENT_AFFINITY 0 -genv I_MPI_PIN enable -genv KMP_AFFINITY disabled -machinefile /tmp/fluent-appfile.lab396.1987301 -np 10 /storage/icds/RISE/sw8/ansys-R23R2/ansys_inc/v232/fluent/fluent23.2.0/lnamd64/2ddp_node/fluent_mpi.23.2.0 node -mpiw intel -pic mpi-auto-selected -mport 10.6.8.73:10.6.8.73:40325:0
+
+Unable to spawn node: license not available.
+0: mpt_write: error: write failed trying to write 4 bytes: Connection reset by peer
+terminate called without an active exception
